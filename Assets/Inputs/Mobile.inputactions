@@ -1,0 +1,54 @@
+{
+    "name": "Mobile",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "c2f79174-76d0-46c9-954f-77157eb47279",
+            "actions": [
+                {
+                    "name": "Mover",
+                    "type": "Value",
+                    "id": "780e6d97-f0f7-486d-90cf-491cc45e621c",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "GirarCamera",
+                    "type": "Value",
+                    "id": "25d2b4e8-7b43-42a4-9200-9a526c376b87",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "b730b1e2-139c-4118-83ed-3dab43dbdfde",
+                    "path": "<Gamepad>/leftStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Mover",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "43bc2a14-354a-426e-b76a-c3aa933f013a",
+                    "path": "<Gamepad>/rightStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "GirarCamera",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
